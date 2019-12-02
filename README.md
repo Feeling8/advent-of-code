@@ -1,3 +1,3 @@
 # advent-of-code 
 
-코딩할라고
+Programming study

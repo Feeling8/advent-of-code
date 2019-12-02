@@ -1,12 +1,12 @@
 # 1.
-input1 <- read.table("F:/jpkim/advent/day1_1.txt")
-results1 <- sum(floor(input1/3)- 2)
+mass1 <- read.table("file_path")
+results1 <- sum(floor(mass1/3)- 2)
 
 
 
 
 # 2.
-mass <- read.table("F:/jpkim/advent/day1_2.txt")
+mass2 <- read.table("file_path")
 
 func <- function (x){
   fuel <- floor(x/3) -2
@@ -16,6 +16,6 @@ func <- function (x){
   return(res)
 }
 
-results2 <- func(mass)
+results2 <- func(mass2)
 
 
